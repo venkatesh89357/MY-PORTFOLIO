@@ -1,98 +1,202 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Venkatesh Gorla — Home</title>
-<link rel="stylesheet" href="./CSS/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Venkatesh Gorla — Associate Software Engineer, .NET developer, and AI & ML graduate.">
+  <meta name="author" content="Venkatesh Gorla">
+  <title>Venkatesh Gorla | Associate Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-  <nav class="nav">
-    <div class="brand">
-      <div class="logo">VG</div>
-      <div>
-        <div style="font-size:1rem;font-weight:700">Venkatesh Gorla</div>
-        <div style="font-size:0.82rem;color:var(--muted)">AI & ML · Software Developer</div>
-      </div>
-    </div>
-    <div style="display:flex;gap:12px;align-items:center">
-      <a class="ghost" href="index.html">Home</a>
-      <a class="ghost" href="projects.html">Projects</a>
-      <a class="ghost" href="resume.html">Resume</a>
-      <a class="ghost" href="contact.html">Contact</a>
-    </div>
-  </nav>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="progress"></div>
 
-  <header class="header" style="margin-top:18px">
-    <div class="portrait">
-      <img src="./assets/photo.png" alt="Venkatesh photo">
-    </div>
-    <div>
-      <h1 class="hname">Venkatesh Gorla</h1>
-      <div class="hmeta">Final-year B.Tech (AI & ML) · Tirupati · CGPA: 9.14</div>
-      <div class="badges">
-        <div class="badge">Machine Learning</div>
-        <div class="badge">Deep Learning</div>
-        <div class="badge">Web Dev</div>
+  <header class="navbar">
+    <a class="brand" href="#home"><span>VG</span><strong>Venkatesh Gorla</strong></a>
+    <div class="availability"><span></span> Open to opportunities</div>
+    <div class="nav-tools">
+      <div class="theme-controls">
+        <button class="appearance-trigger" aria-label="Open appearance settings" aria-expanded="false">◐</button>
+        <div class="theme-panel">
+          <div class="theme-panel-title">Appearance</div>
+          <div class="appearance-options">
+            <button class="theme-btn active" data-theme="dark">☾ <span>Dark</span></button>
+            <button class="theme-btn" data-theme="light">☀ <span>Light</span></button>
+            <button class="theme-btn" data-theme="system">◐ <span>System</span></button>
+          </div>
+          <div class="theme-panel-title accent-title">Accent color</div>
+          <div class="accent-options">
+            <button class="accent-btn active" data-accent="violet" title="Violet" aria-label="Violet"><span></span></button>
+            <button class="accent-btn" data-accent="blue" title="Blue" aria-label="Blue"><span></span></button>
+            <button class="accent-btn" data-accent="cyan" title="Cyan" aria-label="Cyan"><span></span></button>
+            <button class="accent-btn" data-accent="emerald" title="Emerald" aria-label="Emerald"><span></span></button>
+            <button class="accent-btn" data-accent="orange" title="Orange" aria-label="Orange"><span></span></button>
+            <button class="accent-btn" data-accent="rose" title="Rose" aria-label="Rose"><span></span></button>
+          </div>
+        </div>
       </div>
-
-      <div style="margin-top:12px;display:flex;gap:12px">
-        <a class="btn" href="./assets/resume.pdf" target="_blank">Download Resume</a>
-        <a class="ghost" href="projects.html">View Projects</a>
-      </div>
+      <a class="header-resume" href="resume.pdf" download>Resume <span>↓</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
     </div>
+    <nav class="nav-links">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <div class="section card">
-    <h2>Objective</h2>
-    <p style="color:var(--muted)">Final-year B.Tech student specializing in Artificial Intelligence and Machine Learning. Passionate about developing AI-driven applications and web-based tools. Seeking an entry-level opportunity to apply skills in data science, machine learning, and software development.</p>
+  <main id="main-content">
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Software Engineer | .NET | Backend Development | AI & ML</p>
+        <h1 style="font-size : 50px">Software Engineer building reliable backend solutions to make <em> real impact</em>.</h1>
+        <p class="hero-text">I'm Venkatesh Gorla, an Artificial Intelligence & Machine Learning graduate with hands-on experience in .NET development. I worked as an Associate Software Engineer Intern at Mphasis, where I contributed to backend development using ASP.NET Core, RESTful APIs, database integration, testing, and troubleshooting.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore Projects <span>↗</span></a>
+          <a class="btn secondary" href="resume.pdf" download>Download Resume ↓</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>9.07</strong><small>CGPA</small></div>
+          <div><strong>4+</strong><small>Projects</small></div>
+          <div><strong>Top 100 Scorer</strong><small>National Prompt Craft Challenge (Mercer | Mettl)</small></div>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="profile-frame">
+          <img src="images/professional-profile.png" alt="Venkatesh in a professional navy suit at the Mphasis office">
+        </div>
+        <div class="floating-card card-top"><span>●</span> AI & ML</div>
+        <div class="floating-card card-bottom"><span>●</span> Software Engineer</div>
+      </div>
+
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal"><p class="eyebrow">About</p><h2>A software engineer who likes to <em>build</em>.</h2></div>
+      <div class="about-grid">
+        <div class="about-lead reveal"><p>I enjoy turning ideas into practical solutions and continuously learning how things work beneath the surface. My journey has taken me from studying Artificial Intelligence & Machine Learning to gaining practical exposure to software development in a professional environment.</p>
+            <p>I’m particularly interested in backend engineering, problem-solving and building applications that are reliable, maintainable and useful. My AI & ML background also gives me a different perspective when approaching technical problems, allowing me to explore both software engineering and intelligent systems.</p></div>
+        <div class="about-facts reveal">
+          <div><span>Current Profile</span><strong>Associate Software Engineer</strong></div>
+          <div><span>Professional Focus</span><strong>Data Science & Machine Learning</strong></div>
+          <div><span>Technical Experience</span><strong>.NET / Backend Development</strong></div>
+          <div><span>Education</span><strong>B.Tech — AI & ML</strong></div>
+          <div><span>CGPA</span><strong>9.07 / 10 · Top 10</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section tinted">
+      <div class="section-heading reveal"><p class="eyebrow">Skills</p><h2>My technical <em>toolkit</em>.</h2></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-icon">⌘</span><h3>Backend</h3><p>ASP.NET Core · Entity Framework · RESTful APIs</p></article>
+        <article class="skill-card reveal"><span class="skill-icon">◇</span><h3>Programming</h3><p>C · C# · Python · Java · JavaScript · TypeScript · SQL</p></article>
+        <article class="skill-card reveal"><span class="skill-icon">◈</span><h3>Frontend & Database</h3><p>HTML · CSS · Bootstrap · MongoDB · SQL Server</p></article>
+        <article class="skill-card reveal"><span class="skill-icon">◫</span><h3>Tools & Core Skills</h3><p>Git · GitHub · GitHub Copilot · Postman · Computer Networks · OS · DSA · OOP</p></article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading reveal"><p class="eyebrow">Experience</p><h2>Where I’ve <em>learned</em>.</h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="dot"></div><div class="time">Dec 2025 — Apr 2026</div><div><h3>Associate Software Engineer Intern <span>@ Mphasis</span></h3><p>Worked as part of a software development team on .NET-based applications, gaining practical experience in backend development, API development, testing and troubleshooting.</p><p>Contributed to the NexOps Health Monitoring Platform by working with ASP.NET Core RESTful APIs, database integration and application maintenance while collaborating with team members to investigate and resolve software issues.</p></div></article>
+        <article class="timeline-item reveal"><div class="dot"></div><div class="time">2022 — 2026</div><div><h3>B.Tech — Artificial Intelligence & Machine Learning <span>@ AITS</span></h3><p>Built a strong foundation in programming, software engineering, data structures, machine learning, operating systems and computer networks, while developing practical knowledge through academic and technical projects.</p></div></article>
+      </div>
+    </section>
+
+    <section id="credentials" class="section tinted">
+      <div class="section-heading reveal"><p class="eyebrow">Credentials</p><h2>Proof of <em>progress</em>.</h2></div>
+      <div class="credentials-grid">
+        <article class="credential-card reveal">
+          <span class="credential-type">Internship</span>
+          <h3>Mphasis Internship Completion Certificate</h3>
+          <p>Completion certificate for the Associate Software Engineer internship and .NET FSD experience.</p>
+          <a class="btn secondary" href="images/mphasis-internship-certificate.png" target="_blank" rel="noreferrer">View Mphasis Internship Certificate ↗</a>
+        </article>
+        <article class="credential-card reveal">
+          <span class="credential-type">Offer</span>
+          <h3>TCS Systems Engineer Offer Letter</h3>
+          <p>Offer document for the Systems Engineer role at Tata Consultancy Services.</p>
+          <a class="btn secondary" href="images/tcs-offer-letter-page1-redacted.png" target="_blank" rel="noreferrer">View TCS Offer Letter↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section tinted">
+      <div class="section-heading reveal"><p class="eyebrow">Projects</p><h2>Things I’ve <em>built</em>.</h2><a class="github-projects-link" href="https://github.com/venkatesh89357?tab=repositories" target="_blank" rel="noreferrer">View all GitHub repositories ↗</a></div>
+      <div class="project-grid">
+        <article class="project-card featured reveal"><div class="project-number">01</div><div class="project-visual mine"><span>.NET</span></div><div class="project-body"><p class="tag">Software Engineering</p><h3>NexOps Health Monitoring Platform</h3><p>Contributed to an application health monitoring platform focused on monitoring system health and operational status. Worked with ASP.NET Core REST APIs, database operations, API integration, testing, debugging and maintenance.</p><div class="chips"><span>ASP.NET Core</span><span>Entity Framework</span><span>REST API</span><span>SQL Server</span><span>Postman</span></div></div></article>
+        <article class="project-card reveal"><div class="project-number">02</div><div class="project-visual rice"><span>ML</span></div><div class="project-body"><p class="tag">Machine Learning</p><h3>Naval Mine Detection</h3><p>Built a machine-learning model to classify sonar signals as naval mines or rocks and evaluated it with multiple classification metrics.</p><div class="chips"><span>Python</span><span>Django</span><span>Random Forest Classifier Algorithm</span><span>Machine Learning Tools</span></div><a class="project-link" href="https://github.com/venkatesh89357/DETECTION-OF-SUBMERGED-NAVAL-MINES-USING-SONAR-FREQUENCY-DATA-AND-MACHINE-LEARNING-" target="_blank" rel="noreferrer">View repository ↗</a></div></article>
+        <article class="project-card reveal"><div class="project-number">03</div><div class="project-visual home"><span>WEB</span></div><div class="project-body"><p class="tag">Web Development</p><h3>Home Rentals</h3><p>A JavaScript-based home rental project that demonstrates interface building and practical front-end development.</p><div class="chips"><span>JavaScript</span><span>HTML</span><span>CSS</span><span>MongoDB</span><span>React-js</span></div><a class="project-link" href="https://github.com/venkatesh89357/Home-Rentals" target="_blank" rel="noreferrer">View repository ↗</a></div></article>
+        <article class="project-card reveal"><div class="project-number">04</div><div class="project-visual rice"><span>DL</span></div><div class="project-body"><p class="tag">Deep Learning</p><h3>GrainPalette Rice Classification</h3><p>Explored deep-learning techniques to classify rice grain types using a Jupyter Notebook workflow.</p><div class="chips"><span>Python</span><span>Django</span><span>SQL Server</span><span>Jupyter</span><span>Deep Learning Algorithms</span></div><a class="project-link" href="https://github.com/venkatesh89357/venkatesh89357-grainpalette---a-deep-learning-odyssey-in-rice-type-classification" target="_blank" rel="noreferrer">View repository ↗</a></div></article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="section-heading reveal"><p class="eyebrow">Achievements</p><h2>Milestones worth <em>sharing</em>.</h2></div>
+      <div class="achievement-grid">
+        <div class="achievement reveal"><strong>Top 10</strong><span>Academic rank at Annamacharya Institute of Technology and Sciences</span></div>
+        <div class="achievement reveal"><strong>9.07</strong><span>B.Tech CGPA in Artificial Intelligence & Machine Learning</span></div>
+        <div class="achievement reveal"><strong>.NET FSD</strong><span>Hands-on internship experience at Mphasis</span></div>
+        <div class="achievement reveal"><strong>AI + SWE</strong><span>Combined foundation in machine learning and software engineering</span></div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="section-heading reveal"><p class="eyebrow">Education</p><h2>My academic <em>foundation</em>.</h2></div>
+      <div class="edu-card reveal"><div><span class="edu-year">Jun 2022 — Jun 2026</span><h3>Annamacharya Institute of Technology and Sciences</h3><p>Bachelor of Technology — Artificial Intelligence and Machine Learning · Tirupati, Andhra Pradesh</p></div><strong>9.07<br><small>CGPA · TOP 10</small></strong></div>
+      <div class="edu-card reveal"><div><span class="edu-year">Apr 2022</span><h3>A.N.M B.R Junior College</h3><p>Intermediate — MPC · Rayachoty, Andhra Pradesh</p></div><strong>82.6%<br><small>INTERMEDIATE</small></strong></div>
+      <div class="edu-card reveal"><div><span class="edu-year">Apr 2020</span><h3>Govt DIET High School</h3><p>Secondary School Certificate (SSC) · Rayachoty, Andhra Pradesh</p></div><strong>Marks - 594/600<br><small>QUALIFICATION</small></strong></div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="contact-box reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build something<br><em>useful together.</em></h2>
+        <p>Open to software engineering, .NET development and AI/ML opportunities.</p>
+        <a class="btn primary" href="mailto:venkateshgorla417@gmail.com">Start a conversation ↗</a>
+        <div class="socials"><a href="https://github.com/venkatesh89357" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="tel:+918897451205">+91 88974 51205</a></div>
+      </div>
+    </section>
+
+    <section id="internship-gallery" class="internship-gallery section tinted reveal" aria-label="Internship photo gallery">
+      <div class="section-heading"><p class="eyebrow"><span></span> Internship at Mphasis</p><h2>Learning through <em>real work</em>.</h2></div>
+      <div class="gallery-window">
+        <div class="gallery-track">
+          <button class="gallery-slide" type="button"><img src="images/internship-01.jpg" alt="Venkatesh at the Mphasis office"></button>
+          <!-- <button class="gallery-slide" type="button"><img src="images/internship-02.jpg" alt="Venkatesh at his internship desk"></button> -->
+          <button class="gallery-slide" type="button"><img src="images/internship-05.jpg" alt="Venkatesh working at the office"></button>
+          <button class="gallery-slide" type="button"><img src="images/internship-07.jpg" alt="Venkatesh with his internship team"></button>
+          <button class="gallery-slide" type="button"><img src="images/internship-08.jpg" alt="Venkatesh with colleagues at Mphasis"></button>
+          <button class="gallery-slide" type="button"><img src="images/internship-10.jpg" alt="Venkatesh with his internship team"></button>
+        </div>
+      </div>
+      <div class="gallery-controls"><button class="gallery-prev" type="button" aria-label="Previous internship image">←</button><span class="gallery-count">1 / 5</span><button class="gallery-next" type="button" aria-label="Next internship image">→</button></div>
+      <p class="gallery-caption">Learning, building and collaborating in a real engineering environment. Click any image to view it larger.</p>
+    </section>
+  </main>
+
+  <div class="image-modal" role="dialog" aria-modal="true" aria-label="Expanded internship image" hidden>
+    <button class="image-modal-close" type="button" aria-label="Close expanded image">×</button>
+    <img src="" alt="">
   </div>
 
-  <div class="section">
-    <div class="grid-2">
-      <div class="card">
-        <h2>Education</h2>
-        <p><strong>Annamacharya Institute of Technology and Science, Tirupati</strong><br>B.Tech in AI & ML (2022–2026) · CGPA: 9.14</p>
-        <p><strong>A.N.M & B.R. Junior College</strong><br>Intermediate (MPC) · 82.6%</p>
-      </div>
-
-      <div class="card">
-        <h2>Internships</h2>
-        <p><strong>SMARTBRIDGE — AIML Intern</strong> (Jun–Jul 2025)<br>GrainPalette project — CNN / MobileNetv4 for rice classification.</p>
-        <p><strong>INTRAINZ — AI Intern</strong> (Oct–Dec 2023)<br>Data cleaning & spam news detection model.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section card">
-    <h2>Achievements & Skills</h2>
-    <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
-      <div style="flex:1;min-width:220px">
-        <p class="kv"><strong>Languages</strong> — C, Java, Python, HTML/CSS, JS, PHP</p>
-        <p class="kv"><strong>Tools</strong> — TensorFlow, Keras, Scikit-learn, Django, MySQL, Git</p>
-      </div>
-      <div style="flex:1;min-width:220px">
-        <p class="kv"><strong>Honors</strong> — Top 100 in PromptCraft (Mercer Mettl), 2nd in Code-Buzz</p>
-        <p class="kv"><strong>Practice</strong> — 70+ GeeksforGeeks, 30+ LeetCode</p>
-      </div>
-    </div>
-  </div>
-
-  <footer class="card" style="margin-top:22px">
-    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
-      <div>
-        <div style="font-weight:700">Contact</div>
-        <div class="kv" style="margin-top:6px">📧 venkateshgorla417@gmail.com • 📞 +91 8897451205</div>
-      </div>
-      <div style="display:flex;gap:8px;align-items:center">
-        <a class="ghost" href="https://github.com/venkatesh89357" target="_blank">GitHub</a>
-        <a class="ghost" href="https://www.linkedin.com/in/venkatesh-gorla-182616279" target="_blank">LinkedIn</a>
-      </div>
-    </div>
+  <footer>
+    <div><strong>Venkatesh Gorla</strong><span>Software Engineer | .NET | Backend Development | AI & ML</span></div>
+    <nav aria-label="Footer navigation"><a href="#home">Back to top ↑</a><a href="mailto:venkateshgorla417@gmail.com">Email me ↗</a></nav>
+    <small>© 2026 Venkatesh Gorla</small>
   </footer>
-</div>
-
-<script src="./JS/main.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
